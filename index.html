@@ -25,7 +25,7 @@
 
         header {
             background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=1200') no-repeat center center/cover;
-            height: 60vh;
+            height: 50vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -70,7 +70,7 @@
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 40px 20px;
         }
@@ -153,6 +153,7 @@
         <a href="#about">من أنا</a>
         <a href="#literary">المشاريع الأدبية</a>
         <a href="#cultural">النشاط الثقافي</a>
+        <a href="#articles">المقالات الأدبية</a>
         <a href="#contact">تواصل معي</a>
     </nav>
 
@@ -161,11 +162,12 @@
         <!-- قسم من أنا -->
         <section id="about">
             <h2>من أنا</h2>
-        <p>شغوف بالكلمة المكتوبة والفنون البصرية والدرامية. أجمع في مسيرتي بين دراسة الاقتصاد والتصرف، وبين الغوص في عوالم الأدب والسينما والعمل الجمعياتي الشبابي في تونس. أؤمن بأن الفن والثقافة هما أدوات التغيير والوعي الحقيقي.</p>
-        <div style="margin-top: 25px;">
-    <a href="./cv.pdf.pdf" target="_blank" style="display: inline-block; background-color: #b89146; color: #0b0b0b; padding: 10px 25px; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background 0.3s;">تصفح أو تحميل السيرة الذاتية (PDF)</a>
-</div>
-</div>
+            <p>شغوف بالكلمة المكتوبة والفنون البصرية والدرامية. أجمع في مسيرتي بين دراسة الاقتصاد والتصرف، وبين الغوص في عوالم الأدب والسينما والعمل الجمعياتي الشبابي في تونس. أؤمن بأن الفن والثقافة هما أدوات التغيير والوعي الحقيقي.</p>
+            
+            <!-- زر تحميل السيرة الذاتية الصحيح -->
+            <div style="margin-top: 25px;">
+                <a href="./cvpdf.pdf" target="_blank" style="display: inline-block; background-color: #b89146; color: #0b0b0b; padding: 10px 25px; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background 0.3s;">تصفح أو تحميل السيرة الذاتية (PDF)</a>
+            </div>
         </section>
 
         <!-- قسم المشاريع الأدبية -->
@@ -198,12 +200,45 @@
             </div>
         </section>
 
+        <!-- قسم المقالات والقصائد الأدبية الحية -->
+        <section id="articles">
+            <h2>مقالات وإصدارات أدبية</h2>
+            
+            <!-- كرت المقال: الحزن وعي والفرح فلسفة -->
+            <div class="card" style="border-right: 4px solid var(--accent-color); background-color: #111111; padding: 35px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+                <span style="color: #777; font-size: 0.85rem; display: block; margin-bottom: 10px;">📅 28 ماي 2026</span>
+                <h3 style="margin-bottom: 20px; color: var(--accent-color); font-size: 1.6rem;">الحزن وعي والفرح فلسفة</h3>
+                
+                <div style="font-size: 1.1rem; color: #dcdcdc; text-align: justify; line-height: 1.9;">
+                    <p style="margin-bottom: 15px; font-weight: bold; color: #ffffff;">هناك شيءٌ غريب في الأعياد…</p>
+                    
+                    <p style="margin-bottom: 15px;">إنّها تشبه المدن المضيئة من بعيد؛ كلّما اقتربنا منها اكتشفنا أنّ بعض أضوائها ليس سوى انعكاسٍ لحزنٍ قديم.</p>
+                    
+                    <p style="margin-bottom: 15px;">أنا لا أكره الأعياد تمامًا، لكنني أرتاب منها. أرتاب من تلك السعادة الجماعية التي تُفرض على الجميع كأنّ الحزن جريمة، وكأنّ الإنسان مطالبٌ في يومٍ محدّد أن يبتسم مهما كانت الخرائب داخله.</p>
+                    
+                    <p style="margin-bottom: 15px;">الأعياد جميلة، نعم… جميلة لأنّها تذكّرنا بأنّ البشر مازالوا قادرين على الاجتماع حول فكرة الفرح، وأنّ العالم رغم قسوته لم يفقد رغبته في الزينة والضحك والعناق. لكنّها في الوقت نفسه تكشف هشاشتنا؛ فلو كانت الحياة عادلة حقًا، لما احتجنا يومًا استثنائيًا لنشعر بأننا بخير.</p>
+                    
+                    <p style="margin-bottom: 20px;">أحيانًا أشعر أنّ العيد ليس احتفالًا بالسعادة، بل هدنة قصيرة مع الألم. نرتدي فيها أجمل الثياب كي نخفي تعب الروح، ونرفع أصوات الموسيقى حتى لا نسمع الصمت الذي يسكننا. ومع ذلك… يبقى في الأعياد شيء نبيل؛ تلك المحاولة الإنسانية العنيدة لمقاومة العتمة، ولو ليومٍ واحد.</p>
+                    
+                    <p style="margin-bottom: 10px; color: var(--accent-color); font-weight: bold;">لذلك أنا لا أرفض الأعياد لأنّها سيئة، بل لأنّها تجعلني أفكّر كثيرًا:</p>
+                    
+                    <blockquote style="margin: 0 0 25px 0; padding: 5px 15px; border-right: 3px solid #555; font-style: italic; color: #ffffff; font-size: 1.15rem;">
+                        هل نحن سعداء فعلًا؟<br>
+                        أم أنّنا فقط نتقن تمثيل الفرح في الوقت المناسب؟
+                    </blockquote>
+                </div>
+                
+                <div style="text-align: left; margin-top: 20px; border-top: 1px solid #222; padding-top: 15px;">
+                    <span style="font-weight: bold; color: var(--accent-color); font-size: 1rem;">✍️ بقلم: بلقاسم المثناني</span>
+                </div>
+            </div>
+        </section>
+
         <!-- قسم التواصل -->
         <section id="contact">
             <h2>تواصل معي</h2>
             <p style="text-align: center;">يمكنك متابعة أعمالي أو التواصل معي من خلال المنصات التالية:</p>
             <div class="social-links">
-                <!-- استبدل علامة # بروابط حساباتك الحقيقية لاحقاً -->
                 <a href="#" target="_blank">فيسبوك</a>
                 <a href="#" target="_blank">لينكد إن</a>
                 <a href="#" target="_blank">يوتيوب</a>
